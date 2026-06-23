@@ -83,4 +83,29 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps('Message processed successfully')
     }
+Step 6: Sent Test Message
+
+Message sent to SQS Queue:
+
+{
+  "name": "Arjun",
+  "message": "Hello from SQS"
+}
+Step 7: Verified CloudWatch Logs
+
+Successfully verified:
+
+Lambda execution
+SQS message processing
+CloudWatch log generation
+Output
+
+Lambda successfully processed incoming messages from Amazon SQS and generated logs in Amazon CloudWatch.
+
+Learning Outcome
+Learned Amazon SQS fundamentals
+Configured Lambda triggers
+Managed IAM permissions
+Implemented event-driven architecture
+Monitored execution using CloudWatch Logs
 ```
