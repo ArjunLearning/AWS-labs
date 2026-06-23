@@ -35,6 +35,25 @@ CloudWatch Logs
 6. Attached Lambda as target
 7. Verified execution in CloudWatch Logs
 
+---
+
+## Screenshots
+
+### Lambda Function
+
+![Lambda Code](lambda-code.png)
+
+### EventBridge Rule
+
+![EventBridge Rule](eventbridge-rule.png)
+
+### CloudWatch Logs
+
+![CloudWatch Logs](cloudwatch-logs.png)
+
+### Lambda Trigger
+
+![Lambda Trigger](lambda-trigger.png)
 
 ---
 
